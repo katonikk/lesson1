@@ -1,4 +1,4 @@
-def discounted(price, discount, max_discount=50):
+def discounted(price, discount, max_discount=60):
     price = abs(float(price))
     discount = abs(float(discount))
     max_discount = abs(float(max_discount))
